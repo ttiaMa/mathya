@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mathia's skins</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./skins.css">
+</head>
+
+<body>
+<main>
+  <header>
+    <h1><a href="./index.html">Mathya</a></h1>
+    <nav>
+      <a href="https://github.com/ttiaMa">github</a>
+      <a href="https://twitter.com/mattiasbeentakn">twitter</a>
+      <a href="https://mathia.carrd.co/">carrd</a>
+      <a href="https://osu.ppy.sh/users/3636065">osu!</a>
+    </nav>
+  </header>
+  <p>
+    my osu! skins<br>
+    custom ui by Inflique, ty!! gameplay by Seoulness  ∕  Rafis inspired~<br>
+    for feedback or anything dm me on osu! or discord: Mattia#1819</p>
+  <p>
+    <b>- Mattia V x Seoul.v9</b> skin for <b>HD</b> with a looong cursor trail :V
+    <ul>
+        <li>screenshots <a onclick="showa()">here</a>, download: <a href="https://drive.google.com/file/d/1jPdJQJJTqR6bAgnHkmfsP97m4dWvsB_K/view?usp=sharing" target="_blank">gdrive</a></li>
+        <li><i>update!!</i> now with new <i>combo <span style='color:#FFABAB;'>c</span><span style='color:#FFC879;'>o</span><span style='color:#FFF175;'>l</span><span style='color:#82FF9B;'>o</span><span style='color:#92E4FF;'>r</span><span style='color:#F3BFFF;'>s</span></i> from Lasse, download: <a href="https://drive.google.com/file/d/1jSCZjsfiOjSXGF77QmAw9VF1ng02g1eb/view?usp=sharing" target="_blank">gdrive</a></li>
+    </ul></p>
+  <p>
+    <b>- Mattia V x Rafis ~dt</b> skin for <b>DT</b>, no cursor trail to look snappy 
+    <ul>
+        <li>screenshot <a onclick="showb()">here</a>, download: <a href="https://drive.google.com/file/d/1_qZtLErpOnCxqBPI03H6Bvi7slBhcxFh/view?usp=sharing" target="_blank">gdrive</a></li>
+    </ul></p>
+    <br>
+  <p id="screenshota" style="display: none;">
+    <img src="./img/screenshot1.jpg" alt="Song Select">
+    <img src="./img/screenshot2.jpg" alt="Ranking Panel">
+    <img src="./img/screenshot3.jpg" alt="Seoul.v9 Gameplay"></p>
+  <p id="screenshotb" style="display: none;">
+    <img src="./img/screenshot4.jpg" alt="DT Gameplay"></p>
+  <p>enjoy!!</p>
+</main>
+</body>
+
+<script>
+  function showa() {              
+      var x = document.getElementById("screenshota");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      document.getElementById("screenshotb").display = "none";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function showb() {              
+      var x = document.getElementById("screenshotb");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      document.getElementById("screenshota").style.display = "none";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+</html>

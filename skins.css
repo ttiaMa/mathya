@@ -1,0 +1,33 @@
+body {
+    background-image: url('./img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  img {
+    max-width: 130%;
+    margin-left: -13%;
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+   /* unvisited link */
+    a:link {
+    color: #ff79b8;
+  }
+  
+  /* visited link */
+    a:visited {
+    color: #ff79b8;
+  }
+  
+  /* mouse over link */
+    a:hover {
+    color: #ff79b8;
+  }
+  
+  /* selected link */
+    a:active {
+    color: #ff79b8;
+  }
